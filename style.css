@@ -1,0 +1,19 @@
+.verticle-centre {
+  align-items: center;
+}
+.bg-gray {
+  background-color: gray;
+  position: fixed;
+}
+.underline {
+  bottom: -0.3125em;
+}
+.underline ::after {
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 0.125em;
+  left: 0;
+  position: absolute;
+  width: 1.1875em;
+}
